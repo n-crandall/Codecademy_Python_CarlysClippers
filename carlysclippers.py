@@ -21,3 +21,5 @@ total_revenue = 0
 
 for i in range(len(hairstyles)):
   total_revenue += prices[i] * last_week[i]
+
+print("Total Revenue: " + str(total_revenue))
