@@ -23,3 +23,5 @@ for i in range(len(hairstyles)):
   total_revenue += prices[i] * last_week[i]
 
 print("Total Revenue: " + str(total_revenue))
+
+average_daily_revenue = total_revenue / 7
