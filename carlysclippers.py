@@ -16,3 +16,5 @@ print("Average Haircut Price: " + str(average_price))
 new_prices = [price - 5 for price in prices]
 
 print(new_prices)
+
+total_revenue = 0
