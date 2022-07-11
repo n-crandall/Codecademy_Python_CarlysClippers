@@ -12,3 +12,5 @@ for price in prices:
 average_price = total_price / len(prices)
 
 print("Average Haircut Price: " + str(average_price))
+
+new_prices = [price - 5 for price in prices]
