@@ -18,3 +18,5 @@ new_prices = [price - 5 for price in prices]
 print(new_prices)
 
 total_revenue = 0
+
+for i in range(len(hairstyles)):
